@@ -1,4 +1,72 @@
-.h1{
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: #f1f1f1;
+}
+
+.App {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #00bfff;
+}
+
+input[type="text"] {
+  width: 65%;
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #00bfff;
+  background: #1c1c1c;
   color: white;
-  
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 12px;
+  border: none;
+  background-color: #00bfff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0080ff;
+}
+
+.wishlist-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1e1e1e;
+  padding: 10px 12px;
+  margin-top: 12px;
+  border-radius: 6px;
+}
+
+.wishlist-item span {
+  margin-left: 8px;
+}
+
+.wishlist-item button {
+  background-color: #ff4d4d;
+}
+
+.wishlist-item button:hover {
+  background-color: #e60000;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.3);
 }
